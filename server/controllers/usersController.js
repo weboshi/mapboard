@@ -1,8 +1,8 @@
 const db = require("../models");
 const jwt = require('jsonwebtoken');
-import jwtSecret from '../../jwtSecret'
+require('./env');
 
-const secret = process.env.jwt|| jwtSecret
+const secret = process.env.jwtSecret
 // Defining methods for the booksController
 const controller = {
   getUserPins: (req, res) => {

@@ -1,6 +1,6 @@
 const db = require("../models");
 const jwt = require('jsonwebtoken');
-require('./env');
+
 
 const secret = process.env.jwtSecret
 // Defining methods for the booksController

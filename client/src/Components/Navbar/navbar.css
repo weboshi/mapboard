@@ -1,0 +1,113 @@
+.navbar-default {
+    background-color: rgb(35, 219, 133) !important;
+    margin-bottom: 0;
+    height: 60px;
+    border: 0 !important;
+    -webkit-box-shadow: 1px 6px 11px -5px rgba(0,0,0,0.56);
+    -moz-box-shadow: 1px 6px 11px -5px rgba(0,0,0,0.56);
+    box-shadow: 1px 6px 11px -5px rgba(0,0,0,0.56);
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 60px;
+}
+
+.a-hover {
+    height: auto !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.a-hover:hover, .a-hover:focus {
+    border-bottom: 3px solid rgb(252, 97, 136)
+}
+
+
+.a-hover:hover, .a-hover:focus {
+    -webkit-transition: color .2;
+    -moz-transition:    color .2;
+    -ms-transition:     color .2;
+    -o-transition:      color .2;
+    transition: all .15s ease;
+}
+
+.container {
+    height: 60px;
+}
+
+.dropdown-menu {
+    background-color: rgb(35, 219, 133) !important;
+    color: white !important;
+}
+
+.dropdown-menu>li {
+    text-align: center !important;
+}
+
+
+.dropdown-menu li>a {
+    color: rgb(236, 236, 236) !important;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+    -webkit-transition: color .2;
+    -moz-transition:    color .2;
+    -ms-transition:     color .2;
+    -o-transition:      color .2;
+    transition: all .15s cubic-bezier(.455,.03,.515,.955)
+}
+
+.dropdown-menu li>a>div {
+    float: left;
+    width: 30px;
+    text-align: center;
+    margin-right: 25px;
+}
+
+
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    background-color: rgb(30, 187, 114) !important;
+    color: white !important;
+    border-left: 3px solid rgb(252, 97, 136)
+}
+
+.navbar-default .navbar-brand {
+    color: white !important;
+    font-family: 'Fredoka One', cursive;
+    background-color: rgb(35, 219, 133);
+    font-size: 24px !important;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.navbar-brand .fas {
+    color: rgb(252, 97, 136) !important;
+}
+
+
+.navbar-default .navbar-text {
+    color: white !important;
+}
+
+.navbar-default .navbar-link {
+    color: #7dffc0 !important;
+}
+
+.navbar-default #basic-nav-dropdown {
+    background-color: transparent
+}
+
+
+.navbar {
+    width: 100%;
+    margin-bottom: 0;
+    border: 0;
+}

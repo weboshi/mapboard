@@ -81,7 +81,7 @@ class NavigationBar extends Component {
                 </NavItem>
                 </Nav>
             </Navbar.Collapse>
-            </Navbar>;
+            </Navbar>
             </div>
         )
     }
@@ -117,7 +117,7 @@ class NavigationBar extends Component {
             
                 </Nav>
             </Navbar.Collapse>
-            </Navbar>;
+            </Navbar>
             </div>
          )
     }

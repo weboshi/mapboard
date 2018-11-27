@@ -1,7 +1,7 @@
 .navbar-default {
     background-color: rgb(35, 219, 133) !important;
     margin-bottom: 0;
-    height: 60px;
+  
     border: 0 !important;
     -webkit-box-shadow: 1px 6px 11px -5px rgba(0,0,0,0.56);
     -moz-box-shadow: 1px 6px 11px -5px rgba(0,0,0,0.56);
@@ -35,9 +35,7 @@
     transition: all .15s ease;
 }
 
-.container {
-    height: 60px;
-}
+
 
 .dropdown-menu {
     background-color: rgb(35, 219, 133) !important;
